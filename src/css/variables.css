@@ -1,0 +1,8 @@
+:root {
+    --cor-dos-itens-do-menu: #5BC241;
+}
+
+.itens-do-menu a:hover,
+.itens-do-menu a.btn {
+    background-color: var(--cor-dos-itens-do-menu);
+}

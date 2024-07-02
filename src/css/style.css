@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.logo-e-titulo {
+    display: flex;
+    gap: 6px;
+    margin-top: 55px;
+}
+
+.logo-e-titulo img {
+    margin-left: 45px;
+}
+
+.logo-e-titulo h1 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.itens-do-menu a {
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.itens-do-menu a:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.itens-do-menu a.btn {
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.itens-do-menu a:hover {
+    color: #ffffff;
+}
